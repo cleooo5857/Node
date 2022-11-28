@@ -1,0 +1,41 @@
+NodeJS ?
+    nodeJS는 크롬 v8 자바스크립트 엔진으로 빌드 된 JS런타임(실행환경)
+    nodeJS === 백엔드 ??? /// true || false // false
+    react == nodeJS 환경에 실행되는가? || true
+
+nodeJS라고 하는 것은 v8  엔진을 브라우저(크롬...) 바깥으로 꺼내서 js를 브라우저가 아닌 환경에서도
+실행할 수 있게 하는 것
+
+nodejs 활용하여 reactjs 혹은 백엔드를 제작하는 것
+브라우저 엔진으로만 컴파일되는 js 백엔드를 제작할 수 있구나 === nodeJS의 백엔드의 시작
+
+ex) express(기본), nextJS(java,OOP)
+
+1. 디자인패턴
+2. OOP의 특성을 제대로 활용하지 못하면 ===> JAVA개발자 아닙니다.
+
+장점 : 백과 프론트 같은 언어를 사용할 수 있음(스타트업에서 nodeJS관련 백엔드가 많아지는 이유)
+
+npm init
+=> package.json 만들어주는 역할
+
+실행 
+node 파일명
+
+fs, http
+    백엔드 서버를 만들기위해 지원하는 가장 기본적인 모듈이고 빌트인
+    nodeJS의 원리를 위하여 기본적으로 반드시 알아야하는 모듈
+
+fs 모듈
+    파일 처리와 관련된 모듈
+
+    readFile() : 파일을 비동기적으로 읽음
+    readFileSync() : 파일을 동기적으로 읽음
+
+    writeFile() : 파일을 비동기적으로 씀
+    writeFileSync : 파일을 동기적으로 씀
+
+예외처리
+
+비동기: then,catch
+동기 : try catch
