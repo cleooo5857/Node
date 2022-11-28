@@ -1,0 +1,8 @@
+구조
+
+app.js : 서버 설정, 공용 미들웨어 설정
+routes : 경로 설정 , 메소드 설정
+service : 실제 백엔드 로직 ( DB서버 혹은 다른 서버와의 통신 관련 로직 )
+middeleware : routes(req)와 service(res)를 연결해주는 미들웨어
+
+* 미들웨어 : 반드시 라이브러리 x , 

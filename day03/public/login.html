@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    
+    <script>
+
+    </script>
+</head>
+<body>
+    <!-- method는 요청 방식, action은 어느 경로에 데이터를 보낼지 -->
+    <!-- action은 form 태그 내의 submit 버튼이 눌러지면 실행된다. -->
+    <form method="post" action="/user/login">
+    <p>
+        <span>이메일</span>
+        <!-- form태그에서 name은 action으로 데이터를 전송했을 시 json body의 key 값으로 들어감 -->
+        <input placeholder="이메일 입력해주세요" name="email">
+    </p>
+    <p>
+        <span>비밀번호</span>
+        <input type="password" placeholder="비밀번호 입력해주세요" name="password">
+    </p>
+    <button>로그인</button>
+</form>
+</body>
+</html>
